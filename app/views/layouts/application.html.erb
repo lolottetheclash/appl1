@@ -10,6 +10,11 @@
   </head>
 
   <body>
+
+    <%= render 'layouts/header' %>
+       <!-- manque le render des flash -->
     <%= yield %>
+    <%= render 'layouts/footer'%>
+    
   </body>
 </html>
